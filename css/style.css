@@ -10,6 +10,7 @@ body {
 @media print {
   body {
     padding: 25px;
+    font-size: 16px;
   }
 }
 h1, h2, h3, h4, h5, h6 {
@@ -157,6 +158,12 @@ p {
   padding: 60px;
   padding-right: 300px;
 }
+@media print {
+  .main-wrapper{
+    padding: 40px;
+    padding-right: 300px;
+  }
+}
 .main-wrapper .section-title {
   text-transform: uppercase;
   font-size: 20px;
@@ -195,7 +202,7 @@ p {
 }
 @media print {
   .main-wrapper .section {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 }
 .main-wrapper .experiences-section .item {
@@ -228,6 +235,11 @@ p {
   margin-bottom: 10px;
   color: #97AAC3;
 }
+@media print {
+  .main-wrapper .company {
+    margin-bottom: 5px;
+  }
+}
 .main-wrapper .project-title {
   font-size: 16px;
   font-weight: 400;
@@ -236,6 +248,11 @@ p {
 }
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
+}
+@media print {
+  .projects-section .item p {
+    margin-bottom: 5px;
+  }
 }
 .skillset {
   margin-bottom: 20px;
@@ -304,6 +321,14 @@ p {
 .skillsetbar .item {
   margin-bottom: 15px;
   overflow: hidden;
+}
+@media print {
+  .skillsetbar .item {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+  }
 }
 .skillsetbar .level-title {
   font-size: 14px;
