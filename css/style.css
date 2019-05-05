@@ -144,6 +144,11 @@ p {
 .sidebar-wrapper .languages-container .lang-desc {
   color: rgba(255, 255, 255, 0.6);
 }
+@media print {
+  .sidebar-wrapper .strengths-container {
+    display: none;
+}
+}
 .sidebar-wrapper .languages-list, .sidebar-wrapper .interests-list, .sidebar-wrapper .strengths-list  {
   margin-bottom: 0;
 }
